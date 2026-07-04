@@ -1,0 +1,460 @@
+8⁰<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deep Cab Service Chandigarh provides safe, reliable and affordable taxi services from Chandigarh to Manali, Shimla, Kasol, and more.">
+    <meta name="keywords" content="Chandigarh to Manali Taxi, Chandigarh to Shimla Taxi, Airport Transfer, Innova Crysta, Cab Service Himachal">
+    <title>Deep Cab Service Chandigarh | Trusted Taxi for Himachal Tours</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* CSS Variables for Blue & White Luxury Theme */
+        :root {
+            --primary-blue: #0A2540;
+            --secondary-blue: #113B66;
+            --accent-light: #E6F0FA;
+            --white: #FFFFFF;
+            --text-dark: #333333;
+            --text-gray: #666666;
+            --whatsapp-green: #25D366;
+        }
+
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            background-color: var(--accent-light);
+        }
+        h1, h2, h3 {
+            font-family: 'Playfair Display', serif;
+            color: var(--primary-blue);
+        }
+        
+        /* Navigation */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: var(--secondary-blue);
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #000;
+        }
+        .nav-call-btn {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* Hero Section */
+        .hero {
+            /* Attractive Mountain Background Placeholder */
+            background: linear-gradient(rgba(10, 37, 64, 0.7), rgba(10, 37, 64, 0.7)), url('https://images.unsplash.com/photo-1542220465-1d4414f52636?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--white);
+            padding: 0 20px;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            color: var(--white);
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-inline: auto;
+        }
+        .hero-btns a {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        .btn-book {
+            background-color: var(--white);
+            color: var(--primary-blue);
+        }
+        .btn-whatsapp {
+            background-color: var(--whatsapp-green);
+            color: var(--white);
+        }
+
+        /* Sections General */
+        section {
+            padding: 80px 5%;
+            background-color: var(--white);
+        }
+        section:nth-child(even) {
+            background-color: var(--accent-light);
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        /* Grid Layouts */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* Cards */
+        .card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            text-align: center;
+            border-bottom: 4px solid var(--secondary-blue);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card i {
+            font-size: 40px;
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+        }
+
+        /* Booking Form */
+        .booking-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background-color: var(--primary-blue);
+            color: var(--white);
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        /* SEO Destinations Section */
+        .seo-section h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+        .seo-section p {
+            margin-bottom: 20px;
+            color: var(--text-gray);
+        }
+
+        /* Footer & Map */
+        footer {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            padding: 50px 5% 20px;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .footer-grid h3 {
+            color: var(--white);
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        .contact-info a {
+            color: var(--white);
+            text-decoration: none;
+        }
+        .map-container iframe {
+            width: 100%;
+            height: 250px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        /* Floating Buttons */
+        .floating-whatsapp {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background-color: var(--whatsapp-green);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 35px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            text-decoration: none;
+        }
+        .floating-call {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: var(--primary-blue);
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            z-index: 1000;
+            text-decoration: none;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            nav ul {
+                display: none; /* Hide standard nav on mobile for simplicity in this template */
+            }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Deep Cab Service</a>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#fleet">Our Fleet</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+            </ul>
+        </nav>
+        <a href="tel:+919815249371" class="nav-call-btn"><i class="fas fa-phone-alt"></i> Call Now</a>
+    </header>
+
+    <section class="hero">
+        <div>
+            <h1>Trusted Taxi Service for Himachal Tours & Airport Transfers</h1>
+            <p>Experience safe, reliable, and luxury travel from Chandigarh to all major destinations in Himachal Pradesh with our experienced drivers.</p>
+            <div class="hero-btns">
+                <a href="#booking" class="btn-book">Book Online</a>
+                <a href="https://wa.me/919815249371" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Deep Cab Service Chandigarh</h2>
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+            <p>Deep Cab Service Chandigarh provides safe, reliable, and affordable taxi services from Chandigarh to Manali, Shimla, Kasol, Spiti Valley, Dharamshala, Dalhousie, Amritsar, and all across Himachal Pradesh. Whether you need a One Way Taxi, Round Trip, Airport Transfer, Railway Station Pickup, Corporate Travel, or Family Tour, our premium fleet and experienced drivers ensure a comfortable journey.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 class="section-title">Our Premium Services</h2>
+        <div class="grid-3">
+            <div class="card">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3>Outstation Tours</h3>
+                <p>Customized round trips and family tours to all major hill stations in Himachal Pradesh.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-plane-arrival"></i>
+                <h3>Airport Transfers</h3>
+                <p>Punctual and hassle-free pickup and drop services from Chandigarh Airport.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-route"></i>
+                <h3>One Way Taxi</h3>
+                <p>Affordable one-way drops to Manali, Shimla, Dharamshala, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="fleet">
+        <h2 class="section-title">Our Luxury Fleet</h2>
+        <div class="grid-3">
+            <div class="card">
+                <i class="fas fa-car"></i>
+                <h3>Maruti Swift Dzire</h3>
+                <p>Perfect for couples and small families. Comfortable seating for 4 passengers.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-car-side"></i>
+                <h3>Maruti Ertiga</h3>
+                <p>Spacious MUV ideal for groups of 5-6 people with ample luggage space.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-shuttle-van"></i>
+                <h3>Toyota Innova Crysta</h3>
+                <p>The ultimate luxury experience for long mountain journeys. Seats up to 7 passengers.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="seo-section">
+        <h2 class="section-title">Popular Routes & Destinations</h2>
+        <div class="grid-3">
+            <div>
+                <h3>Chandigarh to Manali Taxi</h3>
+                <p>Enjoy a scenic drive through the mountains. We offer safe and comfortable cabs for your Manali honeymoon or family trip.</p>
+            </div>
+            <div>
+                <h3>Chandigarh to Shimla Taxi</h3>
+                <p>Book your affordable ride to the Queen of Hills. Quick, reliable one-way and round-trip packages available.</p>
+            </div>
+            <div>
+                <h3>Chandigarh to Kasol Taxi</h3>
+                <p>Travel to the Parvati Valley safely. Our experienced drivers know the rugged terrain perfectly.</p>
+            </div>
+            <div>
+                <h3>Chandigarh to Spiti Valley Taxi</h3>
+                <p>Embark on an adventure to Spiti with our heavy-duty vehicles like Innova Crysta, built for tough roads.</p>
+            </div>
+            <div>
+                <h3>Chandigarh to Dharamshala Taxi</h3>
+                <p>Comfortable rides to the home of the Dalai Lama. Perfect for spiritual retreats and nature lovers.</p>
+            </div>
+            <div>
+                <h3>Chandigarh to Dalhousie Taxi</h3>
+                <p>Experience the colonial charm of Dalhousie. Book your premium cab with Deep Cab Service today.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <h2 class="section-title">Book Your Ride Online</h2>
+        <form class="booking-form" onsubmit="event.preventDefault(); alert('Thank you! Your booking request has been received. We will call you shortly.');">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" placeholder="Phone Number" required>
+            </div>
+            <div class="form-group">
+                <select required>
+                    <option value="" disabled selected>Select Car Type</option>
+                    <option value="dzire">Maruti Swift Dzire</option>
+                    <option value="ertiga">Maruti Ertiga</option>
+                    <option value="innova">Toyota Innova Crysta</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <select required>
+                    <option value="" disabled selected>Select Destination</option>
+                    <option value="manali">Manali</option>
+                    <option value="shimla">Shimla</option>
+                    <option value="kasol">Kasol</option>
+                    <option value="dharamshala">Dharamshala</option>
+                    <option value="dalhousie">Dalhousie</option>
+                    <option value="spiti">Spiti Valley</option>
+                    <option value="amritsar">Amritsar</option>
+                    <option value="other">Other / Airport Transfer</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="date" required>
+            </div>
+            <button type="submit" class="submit-btn">Submit Booking</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-phone"></i> <a href="tel:+919815249371">+91 9815249371</a></p>
+                <p><i class="fas fa-phone"></i> <a href="tel:+918699914371">+91 8699914371</a></p>
+                <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919815249371">+91 9815249371</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:deepcabservicechd@gmail.com">deepcabservicechd@gmail.com</a></p>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <p><a href="#about" style="color:white; text-decoration:none;">About Us</a></p>
+                <p><a href="#services" style="color:white; text-decoration:none;">Our Services</a></p>
+                <p><a href="#fleet" style="color:white; text-decoration:none;">Our Fleet</a></p>
+                <p><a href="#booking" style="color:white; text-decoration:none;">Book Online</a></p>
+            </div>
+            <div class="map-container">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109741.02912911311!2d76.69348873658222!3d30.735062644372993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1689000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div style="text-align: center; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 20px;">
+            <p>&copy; 2026 Deep Cab Service Chandigarh. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/919815249371" class="floating-whatsapp" target="_blank" title="WhatsApp Us">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="tel:+919815249371" class="floating-call" title="Call Us">
+        <i class="fas fa-phone-alt"></i>
+    </a>
+
+</body>
+</html>
